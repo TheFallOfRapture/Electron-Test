@@ -1,5 +1,5 @@
 function buttonClick() {
-    alert("HEY")
+    alert("Have some blue text!")
     var paragraphs = Array.prototype.slice.call(document.getElementsByTagName('p'))
     paragraphs.forEach(el => el.style.color = "#2196F3")
 }
