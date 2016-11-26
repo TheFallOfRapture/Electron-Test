@@ -8,7 +8,6 @@ body {
     background-color: #2196F3;
     text-align: center;
     font-family: "Roboto";
-    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -24,28 +23,33 @@ aside {
     border-right: 1px solid #DDDDDD;
 }
 
-aside>section {
+.menuHeader {
+    display: block;
     padding: 14px 20px;
     font-weight: bold;
     font-size: 10pt;
+    cursor: pointer;
+}
+
+.submenuHeader {
+    display: block;
+    padding: 7px 34px;
+    font-weight: normal;
+    font-size: 10pt;
+    cursor: pointer;
 }
 
 .submenu {
-    padding: 14px 20px 0 20px;
-    display: none;
     font-weight: normal;
+    display: none;
+    z-index: 50;
 }
 
-#menu1:active {
-    background-color: #EEEEEE;
-}
-
-aside>section:active aside>section>span {
+#sidebarFocus {
     background-color: #EEEEEE;
 }
 
 header {
-    width: 100%;
     background-color: #2196F3;
     box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
         0 1px 5px 0 rgba(0, 0, 0, 0.12);
@@ -86,6 +90,15 @@ p {
 p:hover {
     box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12),
         0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none;
+    color: #2196F3;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 hr {
