@@ -1,7 +1,11 @@
 # electron-test
 Testing the Electron framework.
 
-# Build
+## Dependencies
+- Node.js (npm)
+- Electron
+
+## Build
 Clone using `git clone [this-repo-url]`.
 
 Install Electron with `npm install electron`.
