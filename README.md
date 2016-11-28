@@ -3,7 +3,7 @@ Testing the Electron framework.
 
 ## Dependencies
 - [Node.js](https://nodejs.org) (npm)
-- [Electron](https://electron.atom.io)
+- [Electron](http://electron.atom.io)
 
 ## Build
 Clone using `git clone [this-repo-url]`.
