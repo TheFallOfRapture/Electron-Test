@@ -50,7 +50,37 @@
             <h2>by TheFallOfRapture</h2>
             <p>This is the second page of the Electron test.</p>
             <span class="button">This button does nothing</span>
+            <span class="button" onclick="javascript:process.crash()">CRASH</span>
+            <span class="button" onclick="javascript:process.hang()">HANG</span>
+            <p>Begin Calculator</p>
+            <p id="calc-output"></p>
+            <hr />
+            <span class="button">?</span>
+            <span id="clear-button" class="button">C</span>
+            <span id="backspace-button" class="button"><</span>
+            <span class="button operator-button">/</span>
+            <hr />
+            <span class="button number-button">7</span>
+            <span class="button number-button">8</span>
+            <span class="button number-button">9</span>
+            <span class="button operator-button">*</span>
+            <hr />
+            <span class="button number-button">4</span>
+            <span class="button number-button">5</span>
+            <span class="button number-button">6</span>
+            <span class="button operator-button">-</span>
+            <hr />
+            <span class="button number-button">1</span>
+            <span class="button number-button">2</span>
+            <span class="button number-button">3</span>
+            <span class="button operator-button">+</span>
+            <hr />
+            <span id="plus-or-minus-button" class="button">&plusmn;</span>
+            <span class="button number-button">0</span>
+            <span class="button">?</span>
+            <span id="equals-button" class="button">=</span>
         </article>
         <script src="../js/sidebar.js"></script>
+        <script src="../js/calculator.js"></script>
     </body>
 </html>
